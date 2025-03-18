@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Fractions Project.");
+        Fractions f = new Fractions(3, 4);
+        Console.WriteLine(f.GetFractionString());
+        Console.WriteLine(f.GetDecimalValue());
+
     }
 }
