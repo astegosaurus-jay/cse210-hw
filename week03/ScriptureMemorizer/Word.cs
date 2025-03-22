@@ -6,16 +6,23 @@ public class Word
 
     public Word(string text)
     {
-
+        _text = text;
     }
 
 
     public void Hide()
     {
+        int length = _text.Length;
+        foreach (int i in Enumerable.Range(1,length))
+        {
+            Console.Write("_");
+
+        }
 
     }
     public void Show()
     {
+        Console.Write(_text);
 
     }
     //public bool IsHidden()
@@ -24,6 +31,6 @@ public class Word
     //}
     public string GetDisplayText()
     {
-        return "";
+        return _text;
     }
 }
