@@ -56,11 +56,5 @@ public class ListingActivity : Activity
         Console.WriteLine($"---{prompt}---");
     }
 
-    public List<string> GetListFromUser()
-    {
-        List <string> userInput = new List<string>();
-        string input = Console.ReadLine();
-        userInput.Add(input);
-        return userInput;
-    }
+    
 }

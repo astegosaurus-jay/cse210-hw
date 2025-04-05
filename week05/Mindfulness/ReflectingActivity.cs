@@ -1,8 +1,8 @@
 public class ReflectingActivity : Activity
 {
-    private List<string> _prompts = ["Think of a time you did something really difficult", "Think of a time you felt succesful", "prompt 3", "prompt 4", " prompt 5"];
+    private List<string> _prompts = ["Think of a time you did something really difficult", "Think of a time you felt succesful", "Think of a time when you helped someone in need.", "Think of a time when you did something truly selfless.", " prompt 5"];
 
-    private List<string> _questions = ["question 1", "question 2", "question 3", "question 4", "question 5", "question 6"];
+    private List<string> _questions = ["Why was this experience meaningful to you?", "Have you ever done anything like this before?", "How did you get started?", "How did you feel when it was complete?", "What made this time different than other times when you were not as successful?", "question 6"];
 
 
     public ReflectingActivity() : base()

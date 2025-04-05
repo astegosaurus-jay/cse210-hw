@@ -38,19 +38,7 @@ public class Activity
     public void ShowSpinner(int seconds)
     {
         int i = 0;
-        //DateTime endtime = _startTime.AddSeconds(seconds);
-        //while ( DateTime.Now < endtime)
-        //{
-          //  string s = _animation[i];
-           // Console.Write(s);
-            //Thread.Sleep(1000);
-            //Console.Write("\b \b");
-            //i++;
-            //if (i >= _animation.Count)
-            //{
-              //  i = 0;
-            //}
-       // }
+       
         for (int b = seconds; b > 0; b-- )
         {
             string s = _animation[i];
