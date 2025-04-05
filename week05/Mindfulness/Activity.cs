@@ -4,7 +4,7 @@ public class Activity
 
     protected string _description;
 
-    protected int _duration;
+    //protected int _duration;
 
     //protected DateTime _startTime = DateTime.Now;
 
